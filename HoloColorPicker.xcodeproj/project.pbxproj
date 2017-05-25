@@ -12,6 +12,10 @@
 		2AD68AA81ED6B619004FF200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD68AA61ED6B619004FF200 /* Main.storyboard */; };
 		2AD68AAA1ED6B619004FF200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD68AA91ED6B619004FF200 /* Assets.xcassets */; };
 		2AD68AAD1ED6B619004FF200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD68AAB1ED6B619004FF200 /* LaunchScreen.storyboard */; };
+		2AD68AB81ED6B717004FF200 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD68AB41ED6B717004FF200 /* ColorUtils.swift */; };
+		2AD68AB91ED6B717004FF200 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD68AB51ED6B717004FF200 /* ColorWheel.swift */; };
+		2AD68ABA1ED6B717004FF200 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD68AB61ED6B717004FF200 /* SelectedColorView.swift */; };
+		2AD68ABB1ED6B717004FF200 /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD68AB71ED6B717004FF200 /* SwiftHSVColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2AD68AA91ED6B619004FF200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD68AAC1ED6B619004FF200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD68AAE1ED6B619004FF200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD68AB41ED6B717004FF200 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		2AD68AB51ED6B717004FF200 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		2AD68AB61ED6B717004FF200 /* SelectedColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
+		2AD68AB71ED6B717004FF200 /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		2AD68AA11ED6B619004FF200 /* HoloColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				2AD68AB41ED6B717004FF200 /* ColorUtils.swift */,
+				2AD68AB51ED6B717004FF200 /* ColorWheel.swift */,
+				2AD68AB61ED6B717004FF200 /* SelectedColorView.swift */,
+				2AD68AB71ED6B717004FF200 /* SwiftHSVColorPicker.swift */,
 				2AD68AA21ED6B619004FF200 /* AppDelegate.swift */,
 				2AD68AA41ED6B619004FF200 /* ViewController.swift */,
 				2AD68AA61ED6B619004FF200 /* Main.storyboard */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD68AB81ED6B717004FF200 /* ColorUtils.swift in Sources */,
+				2AD68ABB1ED6B717004FF200 /* SwiftHSVColorPicker.swift in Sources */,
 				2AD68AA51ED6B619004FF200 /* ViewController.swift in Sources */,
+				2AD68ABA1ED6B717004FF200 /* SelectedColorView.swift in Sources */,
 				2AD68AA31ED6B619004FF200 /* AppDelegate.swift in Sources */,
+				2AD68AB91ED6B717004FF200 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

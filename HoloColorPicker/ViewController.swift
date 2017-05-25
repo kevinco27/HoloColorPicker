@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var colorPicker: SwiftHSVColorPicker!
+    var selectedColor: UIColor = UIColor.white
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Setup Color Picker
+        colorPicker.setViewColor(selectedColor)
     }
 
     override func didReceiveMemoryWarning() {
